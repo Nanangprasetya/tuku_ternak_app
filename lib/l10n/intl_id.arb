@@ -1,0 +1,213 @@
+{
+  "@@last_modified": "2020-04-08T06:44:27.207231",
+  "getTukuternak": "Tukuternak",
+  "@getTukuternak": {
+    "description": "Tukuternak Title",
+    "type": "text",
+    "placeholders": {}
+  },
+  "getEmailLabel": "Email ID",
+  "@getEmailLabel": {
+    "description": "signUn",
+    "type": "text",
+    "placeholders": {}
+  },
+  "getPhoneLabel": "Nomer Telepon",
+  "@getPhoneLabel": {
+    "description": "signIn, SignUp",
+    "type": "text",
+    "placeholders": {}
+  },
+  "getPasswordLabel": "Password",
+  "@getPasswordLabel": {
+    "description": "signUp",
+    "type": "text",
+    "placeholders": {}
+  },
+  "getEmptyValidationForm": "Tidak boleh Kosong!",
+  "@getEmptyValidationForm": {
+    "description": "Textfield",
+    "type": "text",
+    "placeholders": {}
+  },
+  "getPhoneValidationForm": "Nomer telepon tidak benar!",
+  "@getPhoneValidationForm": {
+    "description": "Textfield Phone",
+    "type": "text",
+    "placeholders": {}
+  },
+  "getEmailValidationForm": "Email tidak benar",
+  "@getEmailValidationForm": {
+    "description": "Textfield Email",
+    "type": "text",
+    "placeholders": {}
+  },
+  "getPasswordValidationForm": "Password kurang aman",
+  "@getPasswordValidationForm": {
+    "description": "Textfield Password",
+    "type": "text",
+    "placeholders": {}
+  },
+  "getOtpValidationForm": "Otp tidak benar",
+  "@getOtpValidationForm": {
+    "description": "Textfield Otp",
+    "type": "text",
+    "placeholders": {}
+  },
+  "getEmailHint": "kitabisa@contoh.com",
+  "@getEmailHint": {
+    "description": "Hint text form",
+    "type": "text",
+    "placeholders": {}
+  },
+  "getPhoneHint": "821639173343",
+  "@getPhoneHint": {
+    "description": "hint text form",
+    "type": "text",
+    "placeholders": {}
+  },
+  "getPasswordHint": "******",
+  "@getPasswordHint": {
+    "description": "hint text form",
+    "type": "text",
+    "placeholders": {}
+  },
+  "getOtpHint": "_ _ _ _ _",
+  "@getOtpHint": {
+    "description": "hint text",
+    "type": "text",
+    "placeholders": {}
+  },
+  "getBtnRegister": "DAFTAR",
+  "@getBtnRegister": {
+    "description": "loginHome",
+    "type": "text",
+    "placeholders": {}
+  },
+  "getBtnLogin": "MASUK",
+  "@getBtnLogin": {
+    "description": "loginHome",
+    "type": "text",
+    "placeholders": {}
+  },
+  "getBtnGoogle": "GOOGLE",
+  "@getBtnGoogle": {
+    "description": "loginHome",
+    "type": "text",
+    "placeholders": {}
+  },
+  "getBtnVerification": "VERIFIKASI",
+  "@getBtnVerification": {
+    "description": "signIn, signUp",
+    "type": "text",
+    "placeholders": {}
+  },
+  "getBtnStarted": "COBA SEKARANG",
+  "@getBtnStarted": {
+    "description": "btnSwipper",
+    "type": "text",
+    "placeholders": {}
+  },
+  "titleSwiper1": "Terdapat 300 lebih Ternak yang dipasarkan",
+  "@titleSwiper1": {
+    "description": "title",
+    "type": "text",
+    "placeholders": {}
+  },
+  "titleSwiper2": "Mudah dalam Pembelian dan Pembayaran",
+  "@titleSwiper2": {
+    "description": "title",
+    "type": "text",
+    "placeholders": {}
+  },
+  "titleSwiper3": "Ternak Berkualitas dan Harga Terjangkau",
+  "@titleSwiper3": {
+    "description": "title",
+    "type": "text",
+    "placeholders": {}
+  },
+  "subTitleSwiper1": "Tukuternak telak berkerja sama dengan penjual-penjual di seluruh Indonesia untuk mepasarkan Ternak mereka",
+  "@subTitleSwiper1": {
+    "description": "subTitle",
+    "type": "text",
+    "placeholders": {}
+  },
+  "subTitleSwiper2": "Kami menawarkan fitur kemudahan dalam bertransaksi jual beli dan Kemudahaan Pembayaran",
+  "@subTitleSwiper2": {
+    "description": "subTitle",
+    "type": "text",
+    "placeholders": {}
+  },
+  "subTitleSwiper3": "Kam menjual Ternak yang bersetatus Tervalidasi dan kami  pantau Ketersedaian Ternak",
+  "@subTitleSwiper3": {
+    "description": "subTitle",
+    "type": "text",
+    "placeholders": {}
+  },
+  "getTextPrivacy1": "Dengan masuk atau mendaftar, kamu menyetujui",
+  "@getTextPrivacy1": {
+    "description": "loginHome",
+    "type": "text",
+    "placeholders": {}
+  },
+  "getTextPrivacy2": " Ketentuan Layanan dan Kebijakan Privasi.",
+  "@getTextPrivacy2": {
+    "description": "loginHome",
+    "type": "text",
+    "placeholders": {}
+  },
+  "getTitleSignIn": "Login untuk Tukuternak",
+  "@getTitleSignIn": {
+    "description": "signIn",
+    "type": "text",
+    "placeholders": {}
+  },
+  "getSubTitleSignIn": "Masukan Nomer Talapone anda agar dapat masuk ke halaman Tukuternak!",
+  "@getSubTitleSignIn": {
+    "description": "signIn",
+    "type": "text",
+    "placeholders": {}
+  },
+  "getTitleSignUp": "Registrasi untuk Tukuternak",
+  "@getTitleSignUp": {
+    "description": "signUp",
+    "type": "text",
+    "placeholders": {}
+  },
+  "getSubTitleSignUp": "Masukan data-data dibawah ini dengan benar!",
+  "@getSubTitleSignUp": {
+    "description": "signUp",
+    "type": "text",
+    "placeholders": {}
+  },
+  "getTitleLoginVerification": "Verifikasi Nomer Telepon",
+  "@getTitleLoginVerification": {
+    "description": "loginVerification",
+    "type": "text",
+    "placeholders": {}
+  },
+  "getSubTitleLoginVerification": "Masukan kode verifikasi yang telah kami kirimkan ke nomer telepone\t",
+  "@getSubTitleLoginVerification": {
+    "description": "loginVerification",
+    "type": "text",
+    "placeholders": {}
+  },
+  "getOtpTimerOut": "Sisa waktu",
+  "@getOtpTimerOut": {
+    "description": "loginVerification",
+    "type": "text",
+    "placeholders": {}
+  },
+  "getTextResend1": "Tidak menerima Kode Verifikasi?, ",
+  "@getTextResend1": {
+    "description": "loginVerification",
+    "type": "text",
+    "placeholders": {}
+  },
+  "getTextResend2": "Kirim ulang Kode",
+  "@getTextResend2": {
+    "description": "loginVerification",
+    "type": "text",
+    "placeholders": {}
+  }
+}

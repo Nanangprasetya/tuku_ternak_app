@@ -1,0 +1,216 @@
+{
+    "@@last_modified": "2020-04-04T07:53:00.835982",
+    "title": "Hello world App",
+    "getTukuternak": "Tukuternak",
+    "@getTukuternak": {
+      "description": "Tukuternak Title",
+      "type": "text",
+      "placeholders": {}
+    },
+    "getEmailLabel": "Email ID",
+    "@getEmailLabel": {
+      "description": "signUn",
+      "type": "text",
+      "placeholders": {}
+    },
+    "getPhoneLabel": "Phone Number",
+    "@getPhoneLabel": {
+      "description": "signIn, SignUp",
+      "type": "text",
+      "placeholders": {}
+    },
+    "getPasswordLabel": "Password",
+    "@getPasswordLabel": {
+      "description": "signUp",
+      "type": "text",
+      "placeholders": {}
+    },
+    "getEmptyValidationForm": "Cannot be empty!",
+    "@getEmptyValidationForm": {
+      "description": "Textfield",
+      "type": "text",
+      "placeholders": {}
+    },
+    "getPhoneValidationForm": "Phone number is incorrect!",
+    "@getPhoneValidationForm": {
+      "description": "Textfield Phone",
+      "type": "text",
+      "placeholders": {}
+    },
+    "getEmailValidationForm": "Email is incorrect",
+    "@getEmailValidationForm": {
+      "description": "Textfield Email",
+      "type": "text",
+      "placeholders": {}
+    },
+    "getPasswordValidationForm": "Less secure password",
+    "@getPasswordValidationForm": {
+      "description": "Textfield Password",
+      "type": "text",
+      "placeholders": {}
+    },
+    "getOtpValidationForm": "Otp code incorrect",
+    "@getOtpValidationForm": {
+      "description": "Textfield Otp",
+      "type": "text",
+      "placeholders": {}
+    },
+
+    "getEmailHint": "kitabisa@example.com",
+    "@getEmailHint": {
+      "description": "Hint text form",
+      "type": "text",
+      "placeholders": {}
+    },
+    "getPhoneHint": "821639173343",
+    "@getPhoneHint": {
+      "description": "hint text form",
+      "type": "text",
+      "placeholders": {}
+    },
+    "getPasswordHint": "******",
+    "@getPasswordHint": {
+      "description": "hint text form",
+      "type": "text",
+      "placeholders": {}
+    },
+    "getOtpHint": "_ _ _ _ _",
+    "@getOtpHint": {
+      "description": "hint text form",
+      "type": "text",
+      "placeholders": {}
+    },
+
+    "getBtnRegister": "REGISTER",
+    "@getBtnRegister": {
+      "description": "loginHome",
+      "type": "text",
+      "placeholders": {}
+    },
+    "getBtnLogin": "LOGIN",
+    "@getBtnLogin": {
+      "description": "loginHome",
+      "type": "text",
+      "placeholders": {}
+    },
+    "getBtnGoogle": "GOOGLE",
+    "@getBtnGoogle": {
+      "description": "loginHome",
+      "type": "text",
+      "placeholders": {}
+    },
+    "getBtnVerification": "VERIFIKASI",
+    "@getBtnVerification": {
+      "description": "signIn, signUp",
+      "type": "text",
+      "placeholders": {}
+    },
+    "getBtnStarted": "GET STARTED",
+    "@getBtnStarted": {
+      "description": "btnSwipper",
+      "type": "text",
+      "placeholders": {}
+    },
+    "titleSwiper1": "There are more than 300 cattle marketed",
+    "@titleSwiper1": {
+      "description": "title",
+      "type": "text",
+      "placeholders": {}
+    },
+    "titleSwiper2": "Easy on How to Purchase and Payment",
+    "@titleSwiper2": {
+      "description": "title",
+      "type": "text",
+      "placeholders": {}
+    },
+    "titleSwiper3": "Quality Cattle and Affordable Prices",
+    "@titleSwiper3": {
+      "description": "title",
+      "type": "text",
+      "placeholders": {}
+    },
+    "subTitleSwiper1": "Tukuternak has been working with sellers throughout Indonesia to market their Livestock.",
+    "@subTitleSwiper1": {
+      "description": "subTitle",
+      "type": "text",
+      "placeholders": {}
+    },
+    "subTitleSwiper2": "We offer features in the ease of buying and selling and payment transactions.",
+    "@subTitleSwiper2": {
+      "description": "subTitle",
+      "type": "text",
+      "placeholders": {}
+    },
+    "subTitleSwiper3": "We sell Livestock with a Validated status and we monitor the Availability of Livestock.",
+    "@subTitleSwiper3": {
+      "description": "subTitle",
+      "type": "text",
+      "placeholders": {}
+    },
+    "getTextPrivacy1": "By signing in or registering, you agree",
+    "@getTextPrivacy1": {
+      "description": "loginHome",
+      "type": "text",
+      "placeholders": {}
+    },
+    "getTextPrivacy2": " Terms of Service and Privacy Policy.",
+    "@getTextPrivacy2": {
+      "description": "loginHome",
+      "type": "text",
+      "placeholders": {}
+    },
+    "getTitleSignIn": "Login for Tukuternak",
+    "@getTitleSignIn": {
+      "description": "signIn",
+      "type": "text",
+      "placeholders": {}
+    },
+    "getSubTitleSignIn": "Enter your Talapone Number to enter the Tukuternak page!",
+    "@getSubTitleSignIn": {
+      "description": "signIn",
+      "type": "text",
+      "placeholders": {}
+    },
+    "getTitleSignUp": "Registration for Tukuternak",
+    "@getTitleSignUp": {
+      "description": "signUp",
+      "type": "text",
+      "placeholders": {}
+    },
+    "getSubTitleSignUp": "Enter the data below correctly!",
+    "@getSubTitleSignUp": {
+      "description": "signUp",
+      "type": "text",
+      "placeholders": {}
+    },
+    "getTitleLoginVerification": "Phone Number Verification",
+    "@getTitleLoginVerification": {
+      "description": "loginVerification",
+      "type": "text",
+      "placeholders": {}
+    },
+    "getSubTitleLoginVerification": "Enter the verification code that we sent to the telephone number\t",
+    "@getSubTitleLoginVerification": {
+      "description": "loginVerification",
+      "type": "text",
+      "placeholders": {}
+    },
+    "getOtpTimerOut": "Remaining time",
+    "@getOtpTimerOut": {
+      "description": "loginVerification",
+      "type": "text",
+      "placeholders": {}
+    },
+    "getTextResend1": "Didn't receive Verification Code?, ",
+    "@getTextResend1": {
+      "description": "loginVerification",
+      "type": "text",
+      "placeholders": {}
+    },
+    "getTextResend2": "Resend code",
+    "@getTextResend2": {
+      "description": "loginVerification",
+      "type": "text",
+      "placeholders": {}
+    }
+  }

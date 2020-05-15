@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "479509460997",
+    "firebase_url": "https://koodingku.firebaseio.com",
+    "project_id": "koodingku",
+    "storage_bucket": "koodingku.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:479509460997:android:daf319ff8b07bb37bd046c",
+        "android_client_info": {
+          "package_name": "com.example.provider_http_req"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "479509460997-ga7i4h1r2t8m8m3pirdiused9sim4mnv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.provider_http_req",
+            "certificate_hash": "d1e1d9c4c8c94b997cf922dc11b55041f9042601"
+          }
+        },
+        {
+          "client_id": "479509460997-aeisf39kpaki8vfco6rm09or901h3stu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC31VLw-miaGwjrdV_JVSPW44IxhTGazzs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "479509460997-aeisf39kpaki8vfco6rm09or901h3stu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
