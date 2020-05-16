@@ -9,7 +9,7 @@ Tuku Ternak is E-Commerce Sale and Purchase of Livestock, Livestock Medicine, An
 
 I used [Figma Tool](https://www.figma.com/file/pED21VlBNzvdpSvTSkQQQw/PROJECT-TukuTernak?node-id=0%3A1) to create a UI and UX design for this Tuku Ternak application.
 
-* [Figma Design](https://www.figma.com/file/pED21VlBNzvdpSvTSkQQQw/PROJECT-TukuTernak?node-id=0%3A1)
+* [Design Tuku Ternak](https://www.figma.com/file/pED21VlBNzvdpSvTSkQQQw/PROJECT-TukuTernak?node-id=0%3A1)
 
 ## Getting Started
 
@@ -18,7 +18,7 @@ For help getting started with Flutter, view our online
 
 **Step 1:**
 
-Clone or download this repo by using the link below:
+Clone or download this repo by using the code below:
 
 ```
 git clone https://github.com/Nanangprasetya/Tuku-Ternak.git
@@ -36,22 +36,20 @@ flutter pub get
 
 * Splash Screen
 * Swipper Screen
-* Login Home
-* Sign In
-* Sign Up
-* Home
-* Detail Livestock
+* Login Home Screen
+* Sign In Screen
+* Sign Up Screen
+* Home Screen
+* Detail Livestock Screen
 * Responsive Screen (HOT)
 * Localization with I10n (HOT)
 * Firebase Storage (HOT)
 * Routing Sructure (HOT)
-* Theme Screen
-* Http + Dio
-* Connectivity
 * Bloc (State Management) (HOT)
+* Connectivity with Bloc (HOT)
 * Validation with Bloc (HOT)
 * Api Http + Dio Request with Bloc (HOT)
-* Theme Data with Bloc
+* Theme Data with Bloc (HOT)
 
 ### Up-Coming Features :
 
@@ -82,6 +80,7 @@ lib/
     |- Login
     |- Splash
     |- Swipper
+|- Model
 |- Data
 |- I10n/
 |- Util/
@@ -103,8 +102,9 @@ lib/
 
 ### Social Media
 
-* [Instagram](https://www.instagram.com/biscuit_people/)
-* [Dribbble](https://dribbble.com/biscuit_people)
+* [Telegram Flutter Indonesian](https://t.me/flutter_id)
+* [Instagram Biscuit People](https://www.instagram.com/biscuit_people/)
+* [Dribbble Biscuit People](https://dribbble.com/biscuit_people)
 
 
 ### License
