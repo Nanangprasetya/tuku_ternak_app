@@ -44,7 +44,7 @@ flutter pub get
 * Responsive Screen (HOT)
 * Localization with I10n (HOT)
 * Firebase Storage (HOT)
-* Routing Sructure (HOT)
+* Management Routing (HOT)
 * Bloc (State Management) (HOT)
 * Connectivity with Bloc (HOT)
 * Validation with Bloc (HOT)
