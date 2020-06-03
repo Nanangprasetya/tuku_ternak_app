@@ -2,7 +2,8 @@
 
 Tuku Ternak is E-Commerce Sale and Purchase of Livestock, Livestock Medicine, Animal Feed and Equipment (accessories) Livestock, application helps sellers find customers.
 
-![Image](assets\profile\Intro.png)
+
+![Image](assets/profile/Intro.png)
 
 
 ## Figma Design
