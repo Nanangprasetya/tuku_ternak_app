@@ -102,6 +102,6 @@ lib/
 
 ### Social Media
 
-* [Telegram Flutter Indonesian](https://t.me/flutter_id)
+* [Telegram Biscuit People](https://t.me/@Biscuit_People)
 * [Instagram Biscuit People](https://www.instagram.com/biscuit_people/)
 * [Dribbble Biscuit People](https://dribbble.com/biscuit_people)
