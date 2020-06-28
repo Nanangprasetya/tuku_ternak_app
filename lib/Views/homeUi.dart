@@ -4,6 +4,7 @@ import 'package:provider_http_req/Data/Data.dart';
 import 'package:provider_http_req/Util/Colors.dart';
 import 'package:provider_http_req/Util/Text_Styles.dart';
 import 'package:provider_http_req/Views/cobaUI.dart';
+import 'package:provider_http_req/Widgets/app_tamplate.dart';
 
 class MyHomePage extends StatefulWidget {
   @override
@@ -15,29 +16,21 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-        backgroundColor: DataColors.body,
-        body: CustomScrollView(
-          slivers: <Widget>[
-            appBar(context),
-            nameTag("Kategori", context),
-            gridKategori(context),
-            nameTag("Rekomendasi Ternak", context),
-            listRekomendasi(context),
-            nameTag("Kebutuhan", context),
-            listKebutuhan(context)
-          ],
-        ));
-  }
-
-  Widget appBar(BuildContext context) {
-    return SliverAppBar(
-      title: Text(
-        "Mbak Miyem",
-        style: AppStyles.headline2(context),
+    return DraftBar(
+      body: CustomScrollView(
+        slivers: <Widget>[
+          search(context),
+          nameTag("Kategori", context),
+          gridKategori(context),
+          nameTag("Rekomendasi Ternak", context),
+          listRekomendasi(context),
+          nameTag("Kebutuhan", context),
+          listKebutuhan(context)
+        ],
       ),
-      backgroundColor: DataColors.transparent,
-      actions: <Widget>[
+      appBar: true,
+      appBarDevider: true,
+      action: <Widget>[
         IconButton(
             icon: Icon(Icons.shopping_cart, color: DataColors.tri),
             onPressed: () {}),
@@ -48,40 +41,51 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             onPressed: () {}),
       ],
-      bottom: PreferredSize(
-        child: search(context),
-        preferredSize: Size.fromHeight(64.0),
+      text: Text(
+        "TukuTernak",
+        style: AppStyles.headline2(context),
       ),
+      bottomNavigationBar: BottomNavigationBar(
+        unselectedItemColor: DataColors.five,
+        selectedItemColor: DataColors.primer,
+        items: [
+        BottomNavigationBarItem(icon: Icon(Icons.home), title: Text("Home")),
+        BottomNavigationBarItem(icon: Icon(Icons.chat), title: Text("Chat")),
+        BottomNavigationBarItem(icon: Icon(Icons.adb), title: Text("Transaksi")),
+        BottomNavigationBarItem(icon: Icon(Icons.person), title: Text("Akun")),
+      ]),
     );
   }
 
   Widget search(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 8.0),
-      child: Container(
-        height: 56.0,
-        decoration: BoxDecoration(
-            color: DataColors.line2,
-            borderRadius: BorderRadius.all(Radius.circular(8.0)),
-            border: Border.all(color: DataColors.line)),
-        child: Row(
-          crossAxisAlignment: CrossAxisAlignment.center,
-          children: <Widget>[
-            SizedBox(
-              width: 20.0,
-            ),
-            Icon(
-              Icons.search,
-              color: DataColors.five,
-            ),
-            SizedBox(
-              width: 8.0,
-            ),
-            Text(
-              "Search",
-              style: AppStyles.search(context),
-            )
-          ],
+    return SliverPadding(
+      padding: const EdgeInsets.only(left: 8.0, right: 8.0, top: 8.0),
+      sliver: SliverToBoxAdapter(
+        child: Container(
+          height: 56.0,
+          decoration: BoxDecoration(
+              color: DataColors.line2,
+              borderRadius: BorderRadius.all(Radius.circular(8.0)),
+              border: Border.all(color: DataColors.line)),
+          child: Row(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: <Widget>[
+              SizedBox(
+                width: 20.0,
+              ),
+              Icon(
+                Icons.search,
+                color: DataColors.five,
+              ),
+              SizedBox(
+                width: 8.0,
+              ),
+              Text(
+                "Search",
+                style: AppStyles.search(context),
+              )
+            ],
+          ),
         ),
       ),
     );
@@ -115,7 +119,7 @@ class _MyHomePageState extends State<MyHomePage> {
             leading: SvgPicture.asset(Data.kategori[i]["image"]),
             title: Text(
               Data.kategori[i]["nama"],
-              style: AppStyles.headline3(context),
+              style: AppStyles.discriptionItem(context),
             ),
             onLongPress: () {},
           ),
@@ -139,7 +143,7 @@ class _MyHomePageState extends State<MyHomePage> {
           children: <Widget>[
             Text(
               name,
-              style: AppStyles.headline2(context),
+              style: AppStyles.headline3(context),
             ),
             IconButton(
               icon: Icon(

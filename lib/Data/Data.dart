@@ -6,19 +6,19 @@ class Data {
   static final kategori = [
     {
       "nama": "Sapi",
-      "image": "assets/cow_icon.svg",
+      "image": "assets/images/cow_icon.svg",
     },
     {
       "nama": "Kerbau",
-      "image": "assets/cow_icon.svg",
+      "image": "assets/images/cow_icon.svg",
     },
     {
       "nama": "Kambing",
-      "image": "assets/cow_icon.svg",
+      "image": "assets/images/cow_icon.svg",
     },
     {
       "nama": "Ayam",
-      "image": "assets/cow_icon.svg",
+      "image": "assets/images/cow_icon.svg",
     },
   ];
   static final rekomendasi = [
