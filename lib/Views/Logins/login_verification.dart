@@ -101,8 +101,8 @@ class _SignInVerificationState extends State<LoginVerification>
   void _submiteNavigation() {
     if (_formKey.currentState.validate()) {
       _formKey.currentState.save();
-      // MyNavigator.goToHome(context);
-      Navigator.pushNamed(context, '/routeName');
+      MyNavigator.goToHome(context);
+      // Navigator.pushNamed(context, '/routeName');
       //TODO::back end logic
     }
   }

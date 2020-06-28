@@ -10,6 +10,7 @@ class DraftBar extends StatefulWidget {
   final Widget text;
   final Widget body;
   final Widget floating;
+  final Widget bottomNavigationBar;
 
   final List<Widget> action;
   final Key scaffoldKey;
@@ -20,6 +21,7 @@ class DraftBar extends StatefulWidget {
   DraftBar(
       {@required this.body,
       this.floating,
+      this.bottomNavigationBar,
       this.text,
       this.action,
       this.scaffoldKey,
@@ -48,7 +50,7 @@ class _DraftBarState extends State<DraftBar> {
         content: Text(
           "Tidak Ada sambungan Internet",
           textAlign: TextAlign.center,
-          style: AppStyles.subhead(context).copyWith(color: Colors.white),
+          style: AppStyles.discriptionText(context).copyWith(color: Colors.white),
         ),
         backgroundColor: Colors.red,
       ));
@@ -92,6 +94,7 @@ class _DraftBarState extends State<DraftBar> {
         ),
       ),
       floatingActionButton: widget.floating ?? null,
+      bottomNavigationBar: widget.bottomNavigationBar??null,
     );
   }
 }

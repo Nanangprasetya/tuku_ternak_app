@@ -8,6 +8,7 @@ import 'package:provider_http_req/Util/Colors.dart';
 class AppStyles {
   AppStyles._();
 
+  ///28 //bold
   static TextStyle headline1(BuildContext context) {
     return TextStyle(
         fontFamily: "Roboto",
@@ -16,6 +17,7 @@ class AppStyles {
         color: DataColors.one);
   }
 
+  ///24 //Medium
   static TextStyle headline2(BuildContext context) {
     return TextStyle(
         fontFamily: "Roboto",
@@ -24,6 +26,7 @@ class AppStyles {
         color: DataColors.one);
   }
 
+  ///18 //Medium
   static TextStyle headline3(BuildContext context) {
     return TextStyle(
         fontFamily: "Roboto",
@@ -31,7 +34,7 @@ class AppStyles {
         fontWeight: FontWeight.w500,
         color: DataColors.two);
   }
-
+///18 //Regular
   static TextStyle headline4(BuildContext context) {
     return TextStyle(
         fontFamily: "Roboto",
@@ -40,6 +43,7 @@ class AppStyles {
         color: DataColors.one);
   }
 
+///16 //Medium
   static TextStyle subhead(BuildContext context) {
     return TextStyle(
         fontFamily: "Roboto",
@@ -47,7 +51,7 @@ class AppStyles {
         fontWeight: FontWeight.w500,
         color: DataColors.two);
   }
-
+///14 //Medium
   static TextStyle discriptionItem(BuildContext context) {
     return TextStyle(
         fontFamily: "Roboto",
@@ -56,6 +60,7 @@ class AppStyles {
         color: DataColors.tri);
   }
 
+///14 //Regular
   static TextStyle discriptionText(BuildContext context) {
     return TextStyle(
         fontFamily: "Roboto",
@@ -63,7 +68,7 @@ class AppStyles {
         fontWeight: FontWeight.w400,
         color: DataColors.two);
   }
-
+///12 //Medium
   static TextStyle titleHelper(BuildContext context) {
     return TextStyle(
         fontFamily: "Roboto",
@@ -71,7 +76,7 @@ class AppStyles {
         fontWeight: FontWeight.w500,
         color: DataColors.two);
   }
-
+///12 //Regular
   static TextStyle textHelper(BuildContext context) {
     return TextStyle(
         fontFamily: "Roboto",
@@ -80,6 +85,7 @@ class AppStyles {
         color: DataColors.four);
   }
 
+///16 //Medium
   static TextStyle search(BuildContext context) {
     return TextStyle(
         fontFamily: "Roboto",
