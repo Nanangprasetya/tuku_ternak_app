@@ -1,6 +1,6 @@
 # Aplication TUKU TERNAK ([DEMO](https://github.com/Nanangprasetya/Tuku-Ternak.git))
 
-Tuku Ternak is E-Commerce Sale and Purchase of Livestock, Livestock Medicine, Animal Feed and Equipment (accessories) Livestock, application helps sellers find customers.
+Tuku Ternak is E-Commerce Sale and Purchase of Livestock, Livestock Medicine, Animal Feed, and Equipment (accessories) Livestock, the application helps sellers find customers.
 
 
 ![Image](assets/profile/Intro.png)
@@ -10,7 +10,7 @@ Tuku Ternak is E-Commerce Sale and Purchase of Livestock, Livestock Medicine, An
 
 I used [Figma Tool](https://www.figma.com/file/pED21VlBNzvdpSvTSkQQQw/PROJECT-TukuTernak?node-id=0%3A1) to create a UI and UX design for this Tuku Ternak application.
 
-* [Figma Design](https://www.figma.com/file/pED21VlBNzvdpSvTSkQQQw/PROJECT-TukuTernak?node-id=0%3A1)
+* [Design Tuku Ternak](https://www.figma.com/file/pED21VlBNzvdpSvTSkQQQw/PROJECT-TukuTernak?node-id=0%3A1)
 
 ## Getting Started
 
@@ -19,7 +19,7 @@ For help getting started with Flutter, view our online
 
 **Step 1:**
 
-Clone or download this repo by using the link below:
+Clone or download this repo by using the code below:
 
 ```
 git clone https://github.com/Nanangprasetya/Tuku-Ternak.git
@@ -37,22 +37,20 @@ flutter pub get
 
 * Splash Screen
 * Swipper Screen
-* Login Home
-* Sign In
-* Sign Up
-* Home
-* Detail Livestock
+* Login Home Screen
+* Sign In Screen
+* Sign Up Screen
+* Home Screen
+* Detail Livestock Screen
 * Responsive Screen (HOT)
 * Localization with I10n (HOT)
 * Firebase Storage (HOT)
-* Routing Sructure (HOT)
-* Theme Screen
-* Http + Dio
-* Connectivity
+* Management Routing (HOT)
 * Bloc (State Management) (HOT)
+* Connectivity with Bloc (HOT)
 * Validation with Bloc (HOT)
 * Api Http + Dio Request with Bloc (HOT)
-* Theme Data with Bloc
+* Theme Data with Bloc (HOT)
 
 ### Up-Coming Features :
 
@@ -83,6 +81,7 @@ lib/
     |- Login
     |- Splash
     |- Swipper
+|- Model
 |- Data
 |- I10n/
 |- Util/
@@ -104,24 +103,6 @@ lib/
 
 ### Social Media
 
-* [Instagram](https://www.instagram.com/biscuit_people/)
-* [Dribbble](https://dribbble.com/biscuit_people)
-
-
-### License
-
-```
-Copyright 2020 Biscuit People
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-   http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-```
+* [Telegram Biscuit People](https://t.me/@Biscuit_People)
+* [Instagram Biscuit People](https://www.instagram.com/biscuit_people/)
+* [Dribbble Biscuit People](https://dribbble.com/biscuit_people)
